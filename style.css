@@ -109,14 +109,14 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: white;
+    color: rgb(60, 0, 255);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: #373131;
 }
 
 nav li a.active {
