@@ -5,7 +5,7 @@
    letop 1: dit kan de layout soms kan wijzigen 
    letop 2: laat 1 sterretje voor { staan als je commentaar weghaalt */
 /*  * {border: 1px dotted black;}   */
-  
+
 /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, 
    hoe meer boxen in elkaar hoe donkerder de achtergrondkleur 
    letop: laat 1 sterretje voor { staan als je commentaar weghaalt */
@@ -13,43 +13,64 @@
 
 /* Basisinstellingen voor alle pagina's, alleen aanpassen als je pro wilt worden */
 
-* {                                        /* geldt voor alles */
-  box-sizing: border-box;                  /* zorg dat border meetelt bij de width en height van boxen */
-  margin: 0px;                             /* standaard marge 0 */
+* {
+  /* geldt voor alles */
+  box-sizing: border-box;
+  /* zorg dat border meetelt bij de width en height van boxen */
+  margin: 0px;
+  /* standaard marge 0 */
 }
 
-html, body {                      /* geldt voor html en body */
-  margin: 0px;                    /* standaard marge 0 */
-  background-color: #EEEEEE;    /* achtergrondkleur lichtgrijs */
-  color: #303030;               /* tekstkleur donkergrijs */
-}  
+html,
+body {
+  /* geldt voor html en body */
+  margin: 0px;
+  /* standaard marge 0 */
+  background-color: #000000;
+  /* achtergrondkleur lichtgrijs */
+  color: #ffffff;
+  /* tekstkleur donkergrijs */
+}
 
-div {                             /* geldt voor div */
-  overflow: hidden;               /* zorgt dat DIV de hoogte krijgt van wat erin zit (anders tellen de floats erin niet mee voor de hoogte en wordt dus wel eens hoogte 0) */
+div {
+  /* geldt voor div */
+  overflow: hidden;
+  /* zorgt dat DIV de hoogte krijgt van wat erin zit (anders tellen de floats erin niet mee voor de hoogte en wordt dus wel eens hoogte 0) */
 }
 
 /* Indeling voor alle pagina's */
 
 .page {
-  width: 700px;                   /* vaste breedte van 700 pixels */
-  margin: 10px auto;              /* boven en onder 10 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
+  width: 700px;
+  /* vaste breedte van 700 pixels */
+  margin: 10px auto;
+  /* boven en onder 10 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
 }
 
-header, footer {                  /* geldt voor header en footer */
+header,
+footer {
+  /* geldt voor header en footer */
   margin: 10px 0px;
 }
 
-main {                       
-  text-align: justify;            /* tekst uitvullen */}
+main {
+  text-align: justify;
+  /* tekst uitvullen */
+}
 
-h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
+h1,
+h2,
+h3 {
+  /* geldt voor h1 en h2 en h3 */
   margin: 10px 0px;
-  text-align: center;             /* tekst centreren */
-} 
+  text-align: center;
+  /* tekst centreren */
+}
 
 p {
   margin: 10px 0px;
-  text-align: justify;            /* tekst links en rechts uitvullen */
+  text-align: justify;
+  /* tekst links en rechts uitvullen */
 }
 
 img {
@@ -58,15 +79,18 @@ img {
 
 /* Indeling voor hoofd pagina */
 
-/* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
+/* .item {} */
+/* hier doen we nog niks mee, dat mag je zelf toevoegen */
 
 .item-plaatje {
-  float:left;
-  width:250px;
-  padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
+  float: left;
+  width: 250px;
+  padding-right: 15px;
+  /* zorgt dat plaatje niet tegen tekst komt */
 }
+
 .item-tekst {
-  float:right;
+  float: right;
   width: 450px;
 }
 
@@ -74,51 +98,82 @@ img {
 
 /* Opmaak voor alle pagina's */
 
-h1, h2, h3 {
-      color: skyblue;
+h1,
+h2,
+h3 {
+  color: rgb(255, 255, 255);
 }
 
 .smalltext {
-    text-align: center;
-    font-size: 0.7em;
+  text-align: center;
+  font-size: 0.7em;
 }
 
 a {
-    color: skyblue;
-    text-decoration: none;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* Opmaak voor sub pagina's */
 
 /* Navigatiebalk voor alle pagina's */
 nav ul {
-    list-style-type: none;
-    margin: auto;
-    padding: 0;
-    background-color: #dddddd;
-    overflow: hidden;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+#very-white {
+  color: rgb(255, 0, 0);
+}
+nav {
+  position: absolute;
+  left: 26cm;
+  top: 16cm;
+  z-index: 1;
 }
 
 nav ul li {
-    float: left;
+  float: left;
 }
 
 nav li a {
-    display: block;
-    color: rgb(60, 0, 255);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: green(0, 255, 8);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #373131;
+  background-color: #382828;
 }
 
 nav li a.active {
-    background-color: skyblue;
+  background-color: skyblue;
 }
+
+#mage-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  /* 20% opacity*/
+  background-image: url('1561975909.avif');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  
+
+}
+
+body {
+ 
