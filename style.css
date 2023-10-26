@@ -145,18 +145,18 @@ nav ul li {
 
 nav li a {
   display: block;
-  color: green(0, 255, 8);
+  color: black(0, 255, 8);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 nav li a:hover {
-  background-color: #382828;
+  background-color: #f7f7f7;
 }
 
 nav li a.active {
-  background-color: skyblue;
+  background-color: rgb(255, 255, 255);
 }
 
 #mage-container {
