@@ -118,6 +118,25 @@ a:hover {
   text-decoration: underline;
 }
 
+#tekst {
+border: 2px solid;
+background-color: rgb(200, 145, 43) ;
+margin: 5px;
+padding: 5px;
+}
+
+#tekst1 {
+border: 2px solid;
+background-color: rgb(200, 155, 43) ;
+margin: 5px;
+padding: 5px;
+float: right;
+}
+
+#plaatje1 {
+  float: left;
+
+}
 /* Opmaak voor sub pagina's */
 
 /* Navigatiebalk voor alle pagina's */
@@ -129,9 +148,6 @@ nav ul {
   overflow: hidden;
 }
 
-#very-white {
-  color: rgb(255, 0, 0);
-}
 nav {
   position: absolute;
   left: 26cm;
