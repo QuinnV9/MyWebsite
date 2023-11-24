@@ -26,7 +26,7 @@ body {
   /* geldt voor html en body */
   margin: 0px;
   /* standaard marge 0 */
-  background-color: #545252;
+  background-color: #211f1f;
   /* achtergrondkleur lichtgrijs */
   color: #ffffff;
   /* tekstkleur donkergrijs */
@@ -127,13 +127,19 @@ padding: 5px;
 
 #tekst1 {
 border: 2px solid;
-background-color: rgb(200, 155, 43) ;
+background-color: rgb(200, 145, 43) ;
 margin-top: 40px;
 padding: 5px;
 margin-left: 250px;
 width: 20%;
 height: 25%;
 position: absolute
+}
+
+#tekst2 {
+  border: 5px solid rgb(255, 255, 255);
+  background-color: rgb(193, 112, 45);
+  padding: 10px;
 }
 
 #plaatje1 {
@@ -148,6 +154,16 @@ position: absolute
   color:rgb(0, 0, 0);
   background-color: white;
 }
+
+#plaatje2 {
+  background-color: rgb(47, 158, 138);
+  border: 5px solid rgb(255, 255, 255);
+  width: 320px;
+  float: right;
+  margin: 10px;
+}
+
+
 /* Opmaak voor sub pagina's */
 
 /* Navigatiebalk voor alle pagina's */
@@ -155,7 +171,7 @@ nav ul {
   list-style-type: none;
   margin: auto;
   padding: 0;
-  background-color: #ffffff;
+  background-color: color(from color srgb r g b);
   overflow: hidden;
 }
 
@@ -164,6 +180,7 @@ nav {
   left: 25cm;
   top: 18cm;
   z-index: 1;
+  border: 2px solid rgb(255, 255, 255); 
 }
 
 nav ul li {
@@ -172,14 +189,14 @@ nav ul li {
 
 nav li a {
   display: block;
-  color: black(0, 255, 8);
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 nav li a:hover {
-  background-color: #f7f7f7;
+  background-color: color(from color srgb r g b);
 }
 
 nav li a.active {
