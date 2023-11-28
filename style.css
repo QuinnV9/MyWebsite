@@ -140,19 +140,28 @@ position: absolute
   border: 5px solid rgb(255, 255, 255);
   background-color: rgb(193, 112, 45);
   padding: 10px;
+  margin-top: 5px;
 }
 
-#plaatje1 {
+#tekst3 {
+  border: 5px solid rgb(255, 255, 255);
+  background-color: rgb(196, 98, 68);
+  padding: 10px;
+  margin: 5px;
+  width: 450px;
+  height: 307px;
+  overflow: auto;
+  position: absolute;
+  margin-left: 250px;
+  
+}
+
+.plaatje1 {
   float: left;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-right: 300px;
   width: 235px;
 
-}
-
-.strongg {
-  color:rgb(0, 0, 0);
-  background-color: white;
 }
 
 #plaatje2 {
@@ -160,8 +169,20 @@ position: absolute
   border: 5px solid rgb(255, 255, 255);
   width: 320px;
   float: right;
-  margin: 10px;
+  margin-left: 10px;
 }
+
+.plaatje3 {
+  border: 5px solid;
+}
+
+.strongg {
+  color:rgb(0, 0, 0);
+  background-color: white;
+}
+
+
+
 
 
 /* Opmaak voor sub pagina's */
