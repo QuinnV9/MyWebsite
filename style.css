@@ -153,6 +153,7 @@ position: absolute
   overflow: auto;
   position: absolute;
   margin-left: 250px;
+  margin-bottom: 200px;
   
 }
 
@@ -168,7 +169,7 @@ position: absolute
   background-color: rgb(47, 158, 138);
   border: 5px solid rgb(255, 255, 255);
   width: 320px;
-  float: riggt;
+  float: right;
   margin-left: 10px;
 }
 
